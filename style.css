@@ -1,0 +1,114 @@
+/* color */
+
+H1 {
+ color: blueviolet;
+ text-align: center;
+ font-size: 40px;
+ font-family: courier;
+ letter-spacing: 4px;
+}
+H2{
+color: mediumvioletred;    
+}
+
+H1, H2{
+font-family: courier;
+}
+
+a{
+text-decoration : blink;
+color: red;
+transition: color 0.2s ease;
+}
+a:hover{
+color: blue;
+font-weight: bold;
+
+
+}
+
+body{
+background-color: rgb(230, 230,230);
+color: rgb(70, 70, 70);
+font-family: helvetica;
+font-size: 16px;	
+font-weight: lighter;
+font-weight:300 ;
+/*from 100 to 900*/
+}
+
+first-div{
+background-color: blue;
+
+}
+
+li{
+text-decoration: none;
+
+}
+ 
+H3{
+font-size: 30px;
+font-family: 'Birthstone', cursive;
+color: skyblue;
+}
+
+
+/* custom design with class */
+
+.container{
+width: 700px;
+margin: 40px auto; 
+}
+
+.img-circle{
+background-size: 400px;
+border-radius: 50%;
+}   
+
+.card-white{
+background-color: white;
+padding: 40px; 
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+margin: 20px 0px;
+border-radius: 10px;
+text-align: center;
+}
+
+.btn-blue{
+background-color: skyblue;
+color: white;
+padding: 15px 15px;
+border-radius: 10px;
+}
+
+.btn-blue:hover{
+background-color: black;
+color: white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li{
+display: inline;
+padding: 10px;
+}
+
+#introduction p {
+margin-bottom: 30px;
+}
+
+/* media */
+@media  (max-width:  500px){
+.container{
+    width: 400px;
+}
+
+/* tablet */
+@media  (max-width:  800px){
+.container{
+    width: 600px;
+}
